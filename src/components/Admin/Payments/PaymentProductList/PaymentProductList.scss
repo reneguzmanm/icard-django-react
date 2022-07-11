@@ -1,0 +1,14 @@
+.payment-product-list{
+    &__product{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 20px;
+        height: 120px;
+        overflow-y: auto;
+
+        .ui.image{
+            margin-right: 30px !important;
+        }
+    }
+}
